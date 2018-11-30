@@ -32,9 +32,9 @@ namespace News
                         "~/Content/js/plugins/chartist.min.js",
                         "~/Content/js/plugins/chartist-plugin-tooltip.js",
                         "~/Content/js/material-kit.min.js",
-                        "~/Content/js/knockout-3.5.0rc.js",
-                        "~/Content/js/knockout.mapping-latest.js",
-                        "~/Content/js/common.js"
+                        "~/Content/js/common/knockout-3.5.0rc.js",
+                        "~/Content/js/common/knockout.mapping-latest.js",
+                        "~/Content/js/common/common.js"
                 ));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(

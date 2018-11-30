@@ -1,0 +1,116 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width" initial-scale="1.0" maximum-scale="1.0" user-scalable="0" shrink-to-fit="no">
+    <title>IT System - @ViewBag.Title</title>
+
+    <!--     Fonts and icons     -->
+    <link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Roboto:300,400,500,700|Roboto+Slab:400,700|Material+Icons" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css">
+
+    @Styles.Render("~/Content/css")
+    <style>
+        .logo-image {
+            width: 46px;
+            height: 46px;
+            border-radius: 50%;
+            overflow: hidden;
+            margin-top: -6px;
+        }
+    </style>
+</head>
+<body class="index-page sidebar-collapse">
+
+    <nav class="navbar navbar-color-on-scroll navbar-transparent fixed-top  navbar-expand-lg " color-on-scroll="50" id="sectionsNav">
+        <div class="container">
+            <div class="navbar-translate">
+                <a class="navbar-brand" href="/">
+                    <img src="../../Content/img/logo/logo_vnpt-ConvertImage.png" style="margin: -8px 0px 0px" id="logoExistShow" />
+                    <img src="../../Content/img/logo/logo_vnpt.png" style="margin: -8px 0px 0px; display: none" id="logoExistHide" />
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse">
+                <ul class="navbar-nav ml-auto">
+                    <li class="dropdown nav-item">
+                        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                            <i class="material-icons">apps</i> Components
+                        </a>
+                        <div class="dropdown-menu dropdown-with-icons">
+                            <a href="./presentation.html" class="dropdown-item">
+                                <i class="material-icons">layers</i> Presentation
+                            </a>
+                            <a href="./index.html" class="dropdown-item">
+                                <i class="material-icons">line_style</i> All Components
+                            </a>
+                        </div>
+                    </li>
+                    <li class="dropdown nav-item">
+                        <a class="profile-photo dropdown-toggle nav-link" data-toggle="dropdown">
+                            <div class="profile-photo-small">
+                                <img src="../../Content/img/faces/default-face.jpg" alt="Circle Image" class="rounded-circle img-fluid">
+                            </div>
+                        </a>
+                        <div class="dropdown-menu dropdown-menu-right">
+                            <a class="dropdown-item">Me</a>
+                            <a class="dropdown-item">Settings</a>
+                            <a class="dropdown-item">Sign out</a>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    @*<div class="page-header header-filter clear-filter" data-parallax="true" style="background-image: url('../../Content/img/bg0.jpg'); height: 25vh">*@
+    <div class="page-header" style=" background-color: #0066B3; height: 25vh">
+        <div></div>
+    </div>
+
+    <div class="main main-raised" style="margin: -60px 15px 0">
+        @RenderBody()
+    </div>
+    <footer class="footer" data-background-color="black">
+        <div class="container">
+            <nav class="float-left">
+                <ul>
+                    <li>
+                        <a>
+                            News
+                        </a>
+                    </li>
+                    <li>
+                        <a>
+                            About Us
+                        </a>
+                    </li>
+
+                </ul>
+            </nav>
+            <div class="copyright float-right">
+                &copy;
+                <script>
+                    document.write(new Date().getFullYear())
+                </script>
+            </div>
+        </div>
+    </footer>
+
+    @Scripts.Render("~/bundles/jquery")
+    @RenderSection("scripts", required: false)
+
+    @section scripts {
+        <script>
+            $(document).ready(function () {
+                
+            });
+        </script>
+    }
+</body>
+</html>

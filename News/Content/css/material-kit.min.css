@@ -12572,6 +12572,21 @@ h2.title {
     display: block
 }
 
+.space-20 {
+    height: 20px;
+    display: block
+}
+
+.space-10 {
+    height: 10px;
+    display: block
+}
+
+.space-5 {
+    height: 5px;
+    display: block
+}
+
 .space-70 {
     height: 70px;
     display: block

@@ -338,6 +338,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
     <None Include="packages.config" />
+    <Content Include="Views\Shared\_ProgessBar.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <EmbeddedResource Include="App_Core\Resources\DetailResources.resx">

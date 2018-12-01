@@ -1,0 +1,480 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="Action" xml:space="preserve">
+    <value>Thao tác</value>
+  </data>
+  <data name="AddOrEdit" xml:space="preserve">
+    <value>Cập nhật thông tin</value>
+  </data>
+  <data name="All" xml:space="preserve">
+    <value>Tất cả</value>
+  </data>
+  <data name="And" xml:space="preserve">
+    <value> và </value>
+  </data>
+  <data name="BackButton" xml:space="preserve">
+    <value>Quay lại</value>
+  </data>
+  <data name="BussinessError" xml:space="preserve">
+    <value>Lỗi tầng Bussiness</value>
+  </data>
+  <data name="CancelButton" xml:space="preserve">
+    <value>Hủy bỏ</value>
+  </data>
+  <data name="CauHinh" xml:space="preserve">
+    <value>Cấu Hình</value>
+  </data>
+  <data name="Change" xml:space="preserve">
+    <value>Thay Đổi</value>
+  </data>
+  <data name="Choose" xml:space="preserve">
+    <value> Chọn </value>
+  </data>
+  <data name="ChooseEnd" xml:space="preserve">
+    <value> -- </value>
+  </data>
+  <data name="ChooseFirst" xml:space="preserve">
+    <value> -- </value>
+  </data>
+  <data name="ChooseToUse" xml:space="preserve">
+    <value>Chọn dùng</value>
+  </data>
+  <data name="ChucNangChiTietPermit" xml:space="preserve">
+    <value>Phân quyền chức năng chi tiết</value>
+  </data>
+  <data name="ChucNangPermit" xml:space="preserve">
+    <value>Phân quyền chức năng</value>
+  </data>
+  <data name="ChuyenPhieu" xml:space="preserve">
+    <value>Chuyển phiếu</value>
+  </data>
+  <data name="Close" xml:space="preserve">
+    <value>Đóng</value>
+  </data>
+  <data name="Confirm" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn thực hiện</value>
+  </data>
+  <data name="ConfirmDeleteMessage" xml:space="preserve">
+    <value>Bạn có chắc chắn muốn xóa các mục đã chọn</value>
+  </data>
+  <data name="CoreError" xml:space="preserve">
+    <value>Lỗi Core</value>
+  </data>
+  <data name="CreateButton" xml:space="preserve">
+    <value>Thêm mới</value>
+  </data>
+  <data name="CreateDonVi" xml:space="preserve">
+    <value>Thêm mới đơn vị</value>
+  </data>
+  <data name="CreateSuccessfully" xml:space="preserve">
+    <value>Thêm mới thành công</value>
+  </data>
+  <data name="CreateUser" xml:space="preserve">
+    <value>Thêm mới người dùng</value>
+  </data>
+  <data name="DangHoatDong" xml:space="preserve">
+    <value>Đang hoạt động</value>
+  </data>
+  <data name="DangNhapHeThong" xml:space="preserve">
+    <value>Đăng Nhập Hệ Thống</value>
+  </data>
+  <data name="DanhMucPermit" xml:space="preserve">
+    <value>Phân quyền danh mục</value>
+  </data>
+  <data name="DataInvalid" xml:space="preserve">
+    <value>Dữ liệu không hợp lệ</value>
+  </data>
+  <data name="DataNotFound" xml:space="preserve">
+    <value>Không có dữ liệu</value>
+  </data>
+  <data name="DeleteButton" xml:space="preserve">
+    <value>Xóa</value>
+  </data>
+  <data name="DeleteDonVi" xml:space="preserve">
+    <value>Xóa đơn vị</value>
+  </data>
+  <data name="DeleteSuccessfully" xml:space="preserve">
+    <value>Xóa thành công</value>
+  </data>
+  <data name="DeleteUser" xml:space="preserve">
+    <value>Xóa người dùng</value>
+  </data>
+  <data name="DisplayButton" xml:space="preserve">
+    <value>Hiển thị</value>
+  </data>
+  <data name="DonViPermit" xml:space="preserve">
+    <value>Phân quyền đơn vị</value>
+  </data>
+  <data name="EditDonVi" xml:space="preserve">
+    <value>Sửa đơn vị</value>
+  </data>
+  <data name="EditUser" xml:space="preserve">
+    <value>Cập nhật người dùng</value>
+  </data>
+  <data name="Error" xml:space="preserve">
+    <value>Lỗi</value>
+  </data>
+  <data name="ErrorOccured" xml:space="preserve">
+    <value>Có lỗi xảy ra!</value>
+  </data>
+  <data name="ErrorOnCreate" xml:space="preserve">
+    <value>Có lỗi xuất hiện khi thêm mới</value>
+  </data>
+  <data name="ErrorOnDelete" xml:space="preserve">
+    <value>Có lỗi xuất hiện khi xóa</value>
+  </data>
+  <data name="ErrorOnUpdate" xml:space="preserve">
+    <value>Có lỗi xuất hiện khi cập nhật</value>
+  </data>
+  <data name="HasAnError" xml:space="preserve">
+    <value>Có lỗi xảy ra trong quá trình xử lý</value>
+  </data>
+  <data name="HasWordsRegex" xml:space="preserve">
+    <value>Có ký tự không nhận dạng được</value>
+  </data>
+  <data name="HeThong" xml:space="preserve">
+    <value>Hệ thống</value>
+  </data>
+  <data name="HomePageTitle" xml:space="preserve">
+    <value>Trang chủ</value>
+  </data>
+  <data name="HuyBo" xml:space="preserve">
+    <value>Hủy bỏ</value>
+  </data>
+  <data name="InformationNotFound" xml:space="preserve">
+    <value>Không tìm thấy thông tin {0}</value>
+  </data>
+  <data name="InputModelIsNull" xml:space="preserve">
+    <value>Dữ liệu đầu vào trống!</value>
+  </data>
+  <data name="isActive" xml:space="preserve">
+    <value>Hoạt động</value>
+  </data>
+  <data name="IsLockedUser" xml:space="preserve">
+    <value>Tài khoản người dùng đang bị khóa</value>
+  </data>
+  <data name="isNotActive" xml:space="preserve">
+    <value>Không hoạt động</value>
+  </data>
+  <data name="IsNotUsed" xml:space="preserve">
+    <value>Chưa sử dụng</value>
+  </data>
+  <data name="IsUsed" xml:space="preserve">
+    <value>Sử dụng</value>
+  </data>
+  <data name="KetThuc" xml:space="preserve">
+    <value>Kết thúc</value>
+  </data>
+  <data name="KeywordSearch" xml:space="preserve">
+    <value>Từ khoá</value>
+  </data>
+  <data name="Khoa" xml:space="preserve">
+    <value>Khóa</value>
+  </data>
+  <data name="KhoaPhieu" xml:space="preserve">
+    <value>Khóa phiếu</value>
+  </data>
+  <data name="KhongNhanPhieu" xml:space="preserve">
+    <value>Không nhận phiếu</value>
+  </data>
+  <data name="LinkWebsites" xml:space="preserve">
+    <value>Liên kết website</value>
+  </data>
+  <data name="ListLoaiDichVu" xml:space="preserve">
+    <value>Danh sách loại dịch vụ</value>
+  </data>
+  <data name="ListProvinces" xml:space="preserve">
+    <value>Danh sách tỉnh thành</value>
+  </data>
+  <data name="LoaiDichVuPermit" xml:space="preserve">
+    <value>Phân quyền loại dịch vụ</value>
+  </data>
+  <data name="LogIn" xml:space="preserve">
+    <value>Đăng nhập</value>
+  </data>
+  <data name="LoginRequire" xml:space="preserve">
+    <value>Chưa đăng nhập</value>
+  </data>
+  <data name="LogOut" xml:space="preserve">
+    <value>Thoát</value>
+  </data>
+  <data name="MatKhau" xml:space="preserve">
+    <value>Mật Khẩu</value>
+  </data>
+  <data name="MA_TEN" xml:space="preserve">
+    <value>Mã / Tên</value>
+  </data>
+  <data name="MenuPermit" xml:space="preserve">
+    <value>Phân quyền menu</value>
+  </data>
+  <data name="NangCao" xml:space="preserve">
+    <value>Tìm kiếm nâng cao</value>
+  </data>
+  <data name="Next" xml:space="preserve">
+    <value>Tiếp theo</value>
+  </data>
+  <data name="NghiepVuPermit" xml:space="preserve">
+    <value>Phân quyền nghiệp vụ</value>
+  </data>
+  <data name="NguoiDungPermit" xml:space="preserve">
+    <value>Phân quyền người dùng</value>
+  </data>
+  <data name="NhanBaoHong" xml:space="preserve">
+    <value>Nhận báo hỏng</value>
+  </data>
+  <data name="NhanPhieu" xml:space="preserve">
+    <value>Nhận phiếu</value>
+  </data>
+  <data name="No" xml:space="preserve">
+    <value>Không</value>
+  </data>
+  <data name="NoSelectedItemsToDeleteMessage" xml:space="preserve">
+    <value>Chưa chọn</value>
+  </data>
+  <data name="Note" xml:space="preserve">
+    <value>Chú Thích</value>
+  </data>
+  <data name="Notification" xml:space="preserve">
+    <value>Thông báo</value>
+  </data>
+  <data name="Or" xml:space="preserve">
+    <value> hoặc </value>
+  </data>
+  <data name="PasswordRequire" xml:space="preserve">
+    <value>Mật khẩu không được để trống</value>
+  </data>
+  <data name="Previous" xml:space="preserve">
+    <value>Quay lại</value>
+  </data>
+  <data name="QuickSelectSystem" xml:space="preserve">
+    <value>Liên kết chương trình</value>
+  </data>
+  <data name="ReadMore" xml:space="preserve">
+    <value>Đọc thêm...</value>
+  </data>
+  <data name="RepositoryError" xml:space="preserve">
+    <value>Lỗi tầng Repository</value>
+  </data>
+  <data name="RoleSetting" xml:space="preserve">
+    <value>Phân quyền</value>
+  </data>
+  <data name="Save" xml:space="preserve">
+    <value>Lưu</value>
+  </data>
+  <data name="Search" xml:space="preserve">
+    <value>Tìm</value>
+  </data>
+  <data name="SearchButton" xml:space="preserve">
+    <value>Tìm kiếm</value>
+  </data>
+  <data name="ShowLess" xml:space="preserve">
+    <value>Thu gọn</value>
+  </data>
+  <data name="SMS" xml:space="preserve">
+    <value>SMS</value>
+  </data>
+  <data name="SmsDanhSachNguoiNhanEmpty" xml:space="preserve">
+    <value>Số điện thoại cần gửi không được để trống</value>
+  </data>
+  <data name="SmsGuiTinNhanKhongThanhCong" xml:space="preserve">
+    <value>Gửi tin nhắn không thành công</value>
+  </data>
+  <data name="SmsGuiTinNhanThanhCong" xml:space="preserve">
+    <value>Gửi tin nhắn thành công</value>
+  </data>
+  <data name="SmsNoiDungEmpty" xml:space="preserve">
+    <value>Nội dung tin nhắn không được để trống</value>
+  </data>
+  <data name="STT" xml:space="preserve">
+    <value>STT</value>
+  </data>
+  <data name="Success" xml:space="preserve">
+    <value>Thành công</value>
+  </data>
+  <data name="SyncError" xml:space="preserve">
+    <value>Lỗi đồng bộ dữ liệu</value>
+  </data>
+  <data name="TenDangNhap" xml:space="preserve">
+    <value>Tên Đăng Nhập</value>
+  </data>
+  <data name="ThongTinNhaTram" xml:space="preserve">
+    <value>Thông tin nhà trạm</value>
+  </data>
+  <data name="TinhThanhPermit" xml:space="preserve">
+    <value>Phân quyền tỉnh thành</value>
+  </data>
+  <data name="TotalRecord" xml:space="preserve">
+    <value>Tổng số bản ghi</value>
+  </data>
+  <data name="TuKhoaTimKiem" xml:space="preserve">
+    <value>Từ khóa</value>
+  </data>
+  <data name="UpdateButton" xml:space="preserve">
+    <value>Cập nhật</value>
+  </data>
+  <data name="UpdatePTTBButton" xml:space="preserve">
+    <value>Cập nhật từ PTTB</value>
+  </data>
+  <data name="UpdateSuccessfully" xml:space="preserve">
+    <value>Cập nhật thành công</value>
+  </data>
+  <data name="UpdatingItemsNotExists" xml:space="preserve">
+    <value>Đối tượng cần cập nhật không tồn tại</value>
+  </data>
+  <data name="UserNameRequire" xml:space="preserve">
+    <value>Tên đăng nhập không được để trống</value>
+  </data>
+  <data name="UserNotAuthorized" xml:space="preserve">
+    <value>Bạn không có quyền</value>
+  </data>
+  <data name="UserNotExist" xml:space="preserve">
+    <value>Người dùng không tồn tại</value>
+  </data>
+  <data name="VeTinhPermit" xml:space="preserve">
+    <value>Phân quyền vệ tinh</value>
+  </data>
+  <data name="Warning" xml:space="preserve">
+    <value>Cảnh báo</value>
+  </data>
+  <data name="WebApplicationError" xml:space="preserve">
+    <value>Lỗi tầng WebApplication</value>
+  </data>
+  <data name="WebServiceTimeout" xml:space="preserve">
+    <value>Webservice hiện tại không lấy được dữ liệu(Timeout)</value>
+  </data>
+  <data name="WrongPassword" xml:space="preserve">
+    <value>Sai password</value>
+  </data>
+  <data name="XoaCanhBaoBts" xml:space="preserve">
+    <value>Xóa cảnh báo</value>
+  </data>
+  <data name="XuatPhieu" xml:space="preserve">
+    <value>Xuất phiếu</value>
+  </data>
+  <data name="Yes" xml:space="preserve">
+    <value>Có</value>
+  </data>
+  <data name="ImportDbfSuccess" xml:space="preserve">
+    <value>Insert Dbf thành công !</value>
+  </data>
+  <data name="ImportExcelSuccess" xml:space="preserve">
+    <value>Insert Excel thành công !</value>
+  </data>
+</root>

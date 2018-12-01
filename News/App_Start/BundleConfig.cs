@@ -34,8 +34,10 @@ namespace News
                         "~/Content/js/material-kit.min.js",
                         "~/Content/js/common/knockout-3.5.0rc.js",
                         "~/Content/js/common/knockout.mapping-latest.js",
-                        "~/Content/js/common/common.js"
-                ));
+                        "~/Content/js/common/common.js",
+                        "~/Scripts/jquery.signalR-2.4.0.min.js"
+
+            ));
 
             bundles.Add(new ScriptBundle("~/bundles/jqueryval").Include(
                         "~/Scripts/jquery.validate*"));

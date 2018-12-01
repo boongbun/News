@@ -1,5 +1,5 @@
 ﻿using System;
-using News.Common;
+using News.Common.Library;
 
 namespace News.App_Core.Bussiness
 {

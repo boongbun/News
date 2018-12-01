@@ -2,11 +2,9 @@
 using System.Collections.Generic;
 using System.Data;
 using System.IO;
-using System.Linq;
-using System.Web;
-using News.Models;
-using News.Common.Library;
 using ExcelDataReader;
+using News.Common.Library;
+using News.Models;
 using News.Models.Parameter;
 
 namespace News.Common.FileReader.Excel

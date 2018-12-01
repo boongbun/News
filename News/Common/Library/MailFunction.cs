@@ -1,15 +1,12 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.Configuration;
 using System.IO;
-using System.Linq;
 using System.Net;
-using System.Text.RegularExpressions;
 using System.Net.Mail;
 using News.Models;
 using News.Models.Entities;
 
-namespace News.Common
+namespace News.Common.Library
 {
     public class MailFunction
     {

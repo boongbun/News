@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 
 
-namespace News.Common
+namespace News.Common.Library
 {
     public class ExcelConvert
     {

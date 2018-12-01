@@ -3,7 +3,6 @@ using System.Collections.Generic;
 using System.Data;
 using System.Data.Common;
 using System.Reflection;
-using News.Common;
 using News.Common.Library;
 using News.Models;
 using Oracle.ManagedDataAccess.Client;

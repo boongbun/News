@@ -1,4 +1,4 @@
-﻿namespace News.Common
+﻿namespace News.Common.Library
 {
     public class PackageAndFunctionName
     {

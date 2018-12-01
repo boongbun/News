@@ -1,4 +1,4 @@
-﻿namespace News.Common
+﻿namespace News.Common.Library
 {
     public sealed class SessionKeys
     {

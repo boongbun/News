@@ -1,6 +1,5 @@
 ﻿using System;
 using News.App_Core.Repository;
-using News.Common;
 using News.Common.Library;
 using News.Models;
 using News.Models.Entities;

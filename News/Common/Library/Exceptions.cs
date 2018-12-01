@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace News.Common
+namespace News.Common.Library
 {
     /// <summary>
     /// Ngoại lệ tại lớp BaseDAO

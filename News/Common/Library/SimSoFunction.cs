@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text.RegularExpressions;
 using News.Models;
 
-namespace News.Common
+namespace News.Common.Library
 {
     public class SimSoFunction
     {

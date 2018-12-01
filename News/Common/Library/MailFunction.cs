@@ -22,7 +22,7 @@ namespace News.Common
         public static ResultModel<bool> SendMailToClient(MailModel parameters)
         {
             sendAccount = "boongbun1314@gmail.com";
-            sendPassword = "hanoi1234";
+            sendPassword = "xxxxxx";
             port = 587;
             hostMail = "smtp.gmail.com";
             var result =new ResultModel<bool>(){Data = false};

@@ -1,7 +1,9 @@
 
+.svn*
 *.dll
 *bin
 *obj
 packages*
+
 .vs*
 .svn*

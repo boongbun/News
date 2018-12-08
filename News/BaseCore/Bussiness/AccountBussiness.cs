@@ -1,11 +1,11 @@
 ﻿using System;
-using News.App_Core.Repository;
+using News.BaseCore.Repository;
 using News.Common.Library;
 using News.Models;
 using News.Models.Entities;
 using Newtonsoft.Json;
 
-namespace News.App_Core.Bussiness
+namespace News.BaseCore.Bussiness
 {
     public class AccountBussiness : BaseBussiness
     {

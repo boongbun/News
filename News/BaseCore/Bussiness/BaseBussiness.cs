@@ -1,7 +1,7 @@
 ﻿using System;
 using News.Common.Library;
 
-namespace News.App_Core.Bussiness
+namespace News.BaseCore.Bussiness
 {
     public class BaseBussiness
     {

@@ -1,6 +1,6 @@
 ﻿using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
-using News.App_Core.Resources;
+using News.BaseCore.Resources;
 namespace News.Models
 {
     public class AccountModel : IValidatableObject

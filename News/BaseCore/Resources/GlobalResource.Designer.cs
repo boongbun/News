@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace News.App_Core.Resources {
+namespace News.BaseCore.Resources {
     using System;
     
     
@@ -39,7 +39,7 @@ namespace News.App_Core.Resources {
         public static global::System.Resources.ResourceManager ResourceManager {
             get {
                 if (object.ReferenceEquals(resourceMan, null)) {
-                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("News.App_Core.Resources.GlobalResource", typeof(GlobalResource).Assembly);
+                    global::System.Resources.ResourceManager temp = new global::System.Resources.ResourceManager("News.BaseCore.Resources.GlobalResource", typeof(GlobalResource).Assembly);
                     resourceMan = temp;
                 }
                 return resourceMan;

@@ -3,7 +3,7 @@ using System.Configuration;
 using System.Linq;
 using System.Web;
 using System.Web.Mvc;
-using News.App_Core.Bussiness;
+using News.BaseCore.Bussiness;
 using News.Models;
 
 namespace News.Common.Library
@@ -11,7 +11,7 @@ namespace News.Common.Library
     public sealed class DataBaseConnection
     {
         public const string SsoConnectionString =
-            "Data Source=(DESCRIPTION = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = 10.10.20.64)(PORT = 1521))) (CONNECT_DATA = (SERVICE_NAME = qlkn)));User Id=qlkn_ttp;Password=qlkn!23";
+            "Data Source=(DESCRIPTION = (ADDRESS_LIST = (ADDRESS = (PROTOCOL = TCP)(HOST = 10.10.10.10)(PORT = 1521))) (CONNECT_DATA = (SERVICE_NAME = xxx)));User Id=xxx;Password=xxx";
     }
 
     public class CustomAuthorizeAttribute : AuthorizeAttribute

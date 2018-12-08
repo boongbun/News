@@ -7,7 +7,7 @@ using News.Common.Library;
 using News.Models;
 using Oracle.ManagedDataAccess.Client;
 
-namespace News.App_Core.Repository
+namespace News.BaseCore.Repository
 {
     public class BaseRepository : IDisposable
     {

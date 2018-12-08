@@ -38,31 +38,40 @@
             </div>
             <div class="collapse navbar-collapse">
                 <ul class="navbar-nav ml-auto">
-                    <li class="dropdown nav-item">
-                        <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
-                            <i class="material-icons">apps</i> Components
-                        </a>
-                        <div class="dropdown-menu dropdown-with-icons">
-                            <a href="./presentation.html" class="dropdown-item">
-                                <i class="material-icons">layers</i> Presentation
+                    @*<li class="dropdown nav-item">
+                            <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                                <i class="material-icons">apps</i> Components
                             </a>
-                            <a href="./index.html" class="dropdown-item">
-                                <i class="material-icons">line_style</i> All Components
-                            </a>
-                        </div>
-                    </li>
-                    <li class="dropdown nav-item">
-                        <a class="profile-photo dropdown-toggle nav-link" data-toggle="dropdown">
-                            <div class="profile-photo-small">
-                                <img src="../../Content/img/faces/default-face.jpg" alt="Circle Image" class="rounded-circle img-fluid">
+                            <div class="dropdown-menu dropdown-with-icons">
+                                <a href="./presentation.html" class="dropdown-item">
+                                    <i class="material-icons">layers</i> Presentation
+                                </a>
+                                <a href="./index.html" class="dropdown-item">
+                                    <i class="material-icons">line_style</i> All Components
+                                </a>
                             </div>
-                        </a>
-                        <div class="dropdown-menu dropdown-menu-right">
-                            <a class="dropdown-item">Me</a>
-                            <a class="dropdown-item">Settings</a>
-                            <a class="dropdown-item">Sign out</a>
-                        </div>
-                    </li>
+                        </li>
+                        <li class="dropdown nav-item">
+                            <a href="#" class=" nav-link" data-toggle="dropdown">
+                                <i class="material-icons">apps</i> Components
+                            </a>
+                        </li>
+                        <li class="dropdown nav-item">
+                            <a class="profile-photo dropdown-toggle nav-link" data-toggle="dropdown">
+                                <div class="profile-photo-small">
+                                    <img src="../../Content/img/faces/default-face.jpg" alt="Circle Image" class="rounded-circle img-fluid">
+                                </div>
+                            </a>
+                            <div class="dropdown-menu dropdown-menu-right">
+                                <a class="dropdown-item">Me</a>
+                                <a class="dropdown-item">Settings</a>
+                                <a class="dropdown-item">Sign out</a>
+                            </div>
+                        </li>*@
+                    @{
+                        Html.RenderAction("GetMenu", "Home");
+                    }
+
                 </ul>
             </div>
         </div>
@@ -108,7 +117,7 @@
     @section scripts {
         <script>
             $(document).ready(function () {
-                
+
             });
         </script>
     }

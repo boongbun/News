@@ -4,7 +4,7 @@ using System.Linq;
 using News.Models;
 using News.Models.Entities;
 
-namespace News.App_Core.Repository
+namespace News.BaseCore.Repository
 {
     public class AccountRepository : BaseRepository
     {

@@ -177,21 +177,21 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="App_Core\Bussiness\AccountBussiness.cs" />
-    <Compile Include="App_Core\Bussiness\BaseBussiness.cs" />
-    <Compile Include="App_Core\Repository\AccountRepository.cs" />
-    <Compile Include="App_Core\Repository\BaseRepository.cs" />
-    <Compile Include="App_Core\Resources\DetailResources.Designer.cs">
+    <Compile Include="BaseCore\Bussiness\AccountBussiness.cs" />
+    <Compile Include="BaseCore\Bussiness\BaseBussiness.cs" />
+    <Compile Include="BaseCore\Repository\AccountRepository.cs" />
+    <Compile Include="BaseCore\Repository\BaseRepository.cs" />
+    <Compile Include="BaseCore\Resources\DetailResources.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>DetailResources.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_Core\Resources\GlobalResource.Designer.cs">
+    <Compile Include="BaseCore\Resources\GlobalResource.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>GlobalResource.resx</DependentUpon>
     </Compile>
-    <Compile Include="App_Core\Resources\SsoResource.Designer.cs">
+    <Compile Include="BaseCore\Resources\SsoResource.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>SsoResource.resx</DependentUpon>
@@ -209,6 +209,7 @@
     <Compile Include="Common\Library\MailFunction.cs" />
     <Compile Include="Common\Library\PackageAndFunctionName.cs" />
     <Compile Include="Common\Library\SimSoFunction.cs" />
+    <Compile Include="Common\TempData\TemplateData.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
@@ -217,6 +218,7 @@
     <Compile Include="Hubs\ProgressHub.cs" />
     <Compile Include="Models\AccountModel.cs" />
     <Compile Include="Models\ChartModel.cs" />
+    <Compile Include="Models\Entities\MENU_ENTITY.cs" />
     <Compile Include="Models\Entities\FILE_INFO.cs" />
     <Compile Include="Models\Entities\SSO_SECURITY_CODE.cs" />
     <Compile Include="Models\Entities\SSO_USER.cs" />
@@ -228,6 +230,7 @@
     <Compile Include="Models\SearchModel.cs" />
     <Compile Include="Models\SimSoModel.cs" />
     <Compile Include="Models\UserInfoModel.cs" />
+    <Compile Include="Models\MenuModel.cs" />
     <Compile Include="Models\ViewFileModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -327,25 +330,29 @@
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />
+    <Folder Include="Views\DichVu\" />
   </ItemGroup>
   <ItemGroup>
     <Content Include="fonts\glyphicons-halflings-regular.woff2" />
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
-    <None Include="packages.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
     <Content Include="Views\Shared\_ProgessBar.cshtml" />
+    <Content Include="Views\Shared\_MenuPartial.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <EmbeddedResource Include="App_Core\Resources\DetailResources.resx">
+    <EmbeddedResource Include="BaseCore\Resources\DetailResources.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>DetailResources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="App_Core\Resources\GlobalResource.resx">
+    <EmbeddedResource Include="BaseCore\Resources\GlobalResource.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>GlobalResource.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <EmbeddedResource Include="App_Core\Resources\SsoResource.resx">
+    <EmbeddedResource Include="BaseCore\Resources\SsoResource.resx">
       <Generator>PublicResXFileCodeGenerator</Generator>
       <LastGenOutput>SsoResource.Designer.cs</LastGenOutput>
     </EmbeddedResource>

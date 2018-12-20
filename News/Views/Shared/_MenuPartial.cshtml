@@ -1,0 +1,54 @@
+﻿@using System
+@using System.Collections.Generic
+@using System.Linq
+@using News.Models
+@using News.Models.Entities
+@model News.Models.MenuModel
+@{
+    if (Model != null && Model.ListMenu.Count > 0)
+    {
+        foreach (var menuItem in Model.ListMenu.Where(x => x.MENU_PARENT_ID == 0).OrderBy(x => x.STT))
+        {
+            if (Model.ListMenu.Any(x => x.MENU_PARENT_ID == menuItem.MENU_ID))
+            {
+                <li class="dropdown nav-item">
+                    <a href="#" class="dropdown-toggle nav-link" data-toggle="dropdown">
+                        <i class="material-icons">@menuItem.MENU_ICON_MATERIAL</i> @menuItem.MENU_NAME
+                    </a>
+                    <div class="dropdown-menu dropdown-with-icons">
+                        @foreach (var menuSubItem in Model.ListMenu.Where(x => x.MENU_PARENT_ID == menuItem.MENU_ID))
+                        {
+                            <a href="@menuSubItem.MENU_PATH" class="dropdown-item">
+                                <i class="material-icons">@menuSubItem.MENU_ICON_MATERIAL</i> @menuSubItem.MENU_NAME
+                            </a>
+                        }
+                    </div>
+                </li>
+            }
+            else
+            {
+                <li class="dropdown nav-item">
+                    <a href="@menuItem.MENU_PATH" class="nav-link">
+                        <i class="material-icons">@menuItem.MENU_ICON_MATERIAL</i> @menuItem.MENU_NAME
+                    </a>
+                </li>
+            }
+        }
+    }
+    else
+    {
+
+    }
+    <li class="dropdown nav-item">
+        <a class="profile-photo dropdown-toggle nav-link" data-toggle="dropdown">
+            <div class="profile-photo-small">
+                <img src="../../Content/img/faces/default-face.jpg" alt="Circle Image" class="rounded-circle img-fluid">
+            </div>
+        </a>
+        <div class="dropdown-menu dropdown-menu-right">
+            <a class="dropdown-item">Me</a>
+            <a class="dropdown-item">Settings</a>
+            <a class="dropdown-item">Sign out</a>
+        </div>
+    </li>
+}
